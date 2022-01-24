@@ -50,6 +50,9 @@ Writes garbage on stdout, stderr, forever then exits with code 0.
 ### mosp-nanana
 Doesn't listen to any signals, sleeps forever, then exits with code 0.
 
+### mosp-segway
+Immediately segfaults.
+
 ### mosp-DANGER-pylons
 Tries to consume all shared resources on the system, enters a busy loop, 
 ignores all signals, and then exits with code 0.
